@@ -5,24 +5,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SVG</title>
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <div class="container">
-  <div class="card-1">
-    <svg width="140" height="100" viewbox="0 0 140 100" xmlns="http://www.w3.org/2000/svg">
-      <rect x="0" y="0" rx="5" ry="5" width="140" height="100" fill="dimgrey"></rect>
-      <circle cx="15" cy="15" r="5" fill="red"></circle>
-      <circle cx="30" cy="15" r="5" fill="orange"></circle>
-      <circle cx="45" cy="15" r="5" fill="green"></circle>
-      <polyline points="40,40 20,60 40,80" stroke="silver" stroke-width="5" stroke-linecap="round" fill="none"
-        stroke-linejoin="round"></polyline>
-        <polyline points="60,80 80,40" stroke="silver" stroke-width="5" stroke-linecap="round" fill="none"
-        stroke-linejoin="round"></polyline>
-        <polyline points="100,40 120,60 100,80" stroke="silver" stroke-width="5" stroke-linecap="round" fill="none"
-        stroke-linejoin="round"></polyline>
-    </svg>
-  </div>
-  <div class="card-2">
+  <div class="container">
+  <svg width="140" height="100" viewbox="0 0 140 100" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="0" rx="5" ry="5" width="140" height="100" fill="dimgrey"></rect>
+    <circle cx="15" cy="15" r="5" fill="red"></circle>
+    <circle cx="30" cy="15" r="5" fill="orange"></circle>
+    <circle cx="45" cy="15" r="5" fill="green"></circle>
+    <polyline points="40,40 20,60 40,80" stroke="silver" stroke-width="5" stroke-linecap="round" fill="none"
+      stroke-linejoin="round"></polyline>
+    <polyline points="60,80 80,40" stroke="silver" stroke-width="5" stroke-linecap="round" fill="none"
+      stroke-linejoin="round"></polyline>
+    <polyline points="100,40 120,60 100,80" stroke="silver" stroke-width="5" stroke-linecap="round" fill="none"
+      stroke-linejoin="round"></polyline>
+  </svg>
+  <svg class="icon-target">
+    <use xlink:href="image/target.svg#target"></use>
+  </svg>
 </div>
 </body>
 </html>
